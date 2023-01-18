@@ -1,0 +1,174 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.header{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700; 
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
+.wrap{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+
+}
+.nav>li{
+    margin-left: 15px;
+    
+}
+.nav>li>a{
+    text-decoration: none;
+    color: #202020;
+}
+.nav_btm{
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color:#fff;
+    border: none;
+    font-weight: 700;
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo_img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logo1.svg);
+    margin-right: 20px;
+}
+.logo_text{
+    font-size: 24px;
+    color: #202020;
+    text-decoration: none;
+}
+.tittle-main{
+    font-size: 57px;
+    color: #202020;
+    font-weight: 700;
+}
+.text-main{
+    font-size: 24px;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+.buttom{
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color:#fff;
+    border: none;
+    font-size: 24px;
+
+}
+.page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.page-top{
+    border-top: 1px solid #656565;
+}
+.page h2 {
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #5d5d5d;
+}
+.aboutme{
+    display: grid;
+    grid-template:50% 50% / 50% 50%;
+}
+.aboutme-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.aboutme_img{
+    flex-basis: 120px;
+    text-align: center;
+}
+.aboutme_text{
+    flex-basis: calc(100% - 100px);
+}
+
+.aboutme h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.aboutme p{
+    font-size: 14px;
+    color: #909090;
+    line-height: 1.5;
+}   
+.experience{
+    display: grid;
+    grid-template: 120px 120px / repeat(4,25%);
+    text-align: center;
+}
+.foto{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3,33%);
+      
+}
+.foto-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    
+}
+.round {
+    border-radius: 25px; /* Радиус скругления */
+    border: 3px solid rgb(255, 255, 255); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.foto-item{
+    margin-right: 20px;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+.social>li>a{
+    margin-left: 15px;
+    color: #6e6e6e;
+    font-size: 24px;
+}
